@@ -1,0 +1,641 @@
+
+  521  awk '{print $1, $4}' mysql.log 
+  522  awk '{print $1, $6}' mysql.log 
+  523  ls
+  524  rm -rf *.log
+  525  ls
+  526  awk '{print $1, $0}' mysql.log 
+  527  awk '{print  $0}' mysql.log 
+  528  awk '{print  $0}' errors.log 
+  529  ls
+  530  awk '{print  $0}' deviceToken.log 
+  531  awk '{print  $7}' deviceToken.log 
+  532  cd ..
+  533  ls
+  534  mkdir awk
+  535  cd awk/
+  536  ls
+  537  vi sort.awk
+  538  ls
+  539  chmod + x sort.awk 
+  540  chmod +x sort.awk 
+  541  ls
+  542  ./sort.awk ../log/deviceToken.log 
+  543  vi sort.awk 
+  544  ./sort.awk ../log/deviceToken.log 
+  545  ls
+  546  vi employees.txt
+  547  awk '/Tom/' employees.txt 
+  548  awk '{print $0}' employees.txt 
+  549  awk '{print $1}' employees.txt 
+  550  awk '{print $1, $2}' employees.txt 
+  551  cat employees.txt | awk '/Sally/{print $1}'
+  552  cat employees.txt | awk '/Tom/{print $1}'
+  553  cat employees.txt | awk '/Tom/ {print $1}'
+  554  cat employees.txt | awk '/Tom/{print $1}'
+  555  cat employees.txt | awk '/Sally/{print $1}'
+  556  ps -ef | awk '/node/'
+  557  date
+  558  date | awk {print "Month"}
+  559  date | awk '{print "Month"}'
+  560  date | awk '{print "Month"} $2'
+  561  date | awk '{print "Month" $2}'
+  562  date | awk '{print "Month: " $2}'
+  563  date | awk '{print "Month: " $2 "\nYear: " $6 }'
+  564  awk '/sally/{print "\t\t Have a nice day," $1 $2 "\!"}'
+  565  awk '/sally/{print "\t\t Have a nice day," $1 $2 "!"}'
+  566  awk '/Sally/ {print "\t\t Have a nice day," $1 $2 "!"}'
+  567  awk '/Sally/' '{print "\t\t Have a nice day," $1 $2 "!"}'
+  568  awk '/Sally/{print "\t\t Have a nice day," $1 $2 "!"}' employees.txt 
+  569  history 
+  570  history > cmd.txt
+  571  cat cmd.txt 
+  572  cat employees.txt 
+  573  cat employees.txt | awk '/Sally/{print $1}'
+  574  cat employees.txt | awk '/Sally/{print $1 $2}'
+  575  cat employees.txt | awk '/Sally/ {print $1 $2}'
+  576  cat employees.txt | awk '/Sally/{print $1 $2}'
+  577  cat employees.txt | awk '/Sally/{print $1,$2}'
+  578  cat employees.txt | awk '/Sally/{print $1}'
+  579  awk 'BEGIN{OFMT="%.2f"; print 1.2.567, 12E-2 }'
+  580  awk 'BEGIN{OFMT="%.2f"; print 1.2.567, 12E-2 }' >> cmd.txt 
+  581  cat cmd.txt 
+  582  history > cmd.txt
+  583  cat cmd.txt 
+  584  ls
+  585  cat employees.txt 
+  586  awk '{printf "The name is %-15s  ID is %s\n", $1,$3 }'
+  587  awk '{printf "The name is %-15s  ID is %s\n", $1,$3}' employees.txt 
+  588  cat employees.txt | awk '{printf "The name is %-15s  ID is %s\n", $1,$3}' 
+  589  cat sort.awk 
+  590  vi print.awk
+  591  awk -f print.awk employees.txt 
+  592  cat print.awk 
+  593  cat employees.txt 
+  594  awk '{print $0}'
+  595  awk '{print $0}' employees.txt 
+  596  awk '{print}' employees.txt 
+  597  awk '{print NR, $1, $2, $5}' employees.txt 
+  598  awk '{print NR, $1, $2, $5, NF}' employees.txt 
+  599  vi family.txt
+  600  ls
+  601  cat family.txt 
+  602  awk -F: '/Mary Adams/{print $1, $2}' family.txt 
+  603  awk -F'[ :\t]' '{print $1, $2, $5}' family.txt 
+  604  history
+  605  history >> README.md
+  606  awk '{print OFS}'
+  607  awk -F: '/Tom/{print $1,$2,$3,$4}' family.txt 
+  608  awk -F: '/Tom/{print $0}' family.txt 
+  609  awk -F: '/Tom/{OFS="|"; print $1,$2,$3,$4}'
+  610  awk -F: '/Tom/{OFS="|"; print $1,$2,$3,$4}' family.txt 
+  611  ls
+  612  cd dev
+  613  cd develop/
+  614  ls
+  615  cd GoSee/
+  616  ls
+  617  node --debug app.js 
+  618  svn update
+  619  node --debug app.js 
+  620  svn update
+  621  node --debug app.js 
+  622  svn update
+  623  node --debug app.js 
+  624  cd develop/
+  625  ls
+  626  cd log/
+  627  ls
+  628  tail -fn 200 socketio.log 
+  629  ls
+  630  ls -lt
+  631  echo "Linux" | awk '{printf "|-15s|\n", $1}'
+  632  echo "Linux" | awk '{printf "|-15s|\n" $1}'
+  633  echo "Linux" | awk '{printf "|%-15s|\n" $1}'
+  634  echo "Linux" | awk '{printf "|%-15s|\n", $1}'
+  635  echo 23 | awk '{printf "%#o\n", $1}'
+  636  echo 23 | awk '{printf "%#x\n", $1}'
+  637  echo "Linux" | awk '{printf "|%15s\n", $1 }'
+  638  echo "Linux" | awk '{printf "|%15s\n|", $1 }'
+  639  echo "Linux" | awk '{printf "|%15s|\n", $1 }'
+  640  cat errors.log 
+  641  ls
+  642  history
+  643  history > cmd.txt
+  644  poweroff
+  645  mysql -uroot -pSjdd@123
+  646  node -v
+  647  pwd
+  648  ll
+  649  cd set |more
+  650  set |more
+  651  redis-cli
+  652  redis-server
+  653  redis-server --version
+  654  cd /
+  655  find . -name redis*
+  656  /root/redis-3.2.0/src/redis-server
+  657  ps -ef|grep redis-server
+  658  pwd
+  659  ll
+  660  cd
+  661  ll
+  662  cd /
+  663  find . -name gosee
+  664  find . -name *.js
+  665  pwd
+  666  cd 
+  667  ll
+  668  cd deve*
+  669  ll
+  670  cd GoSee
+  671  l
+  672  ll
+  673  pwd
+  674  ll
+  675  vi config.js
+  676  pwd
+  677  ll
+  678  cd node*
+  679  ll
+  680  pwd
+  681  cd cookie
+  682  ll
+  683  pwd
+  684  cd ..
+  685  npm install cookie --save-dev
+  686  node app
+  687  cd 
+  688  ll
+  689  ll *.pem
+  690  chmod 400 lidw.pem
+  691  ssh-keygen -p -f lidw.pem
+  692  ll
+  693  ssh-keygen -e -f lidw.pem >> lidw.pem.pub
+  694  ll
+  695  ping gosee.sjdd.com.cn
+  696  cd 
+  697  cd redis-3.2.0
+  698  dir
+  699  sh startRedis.sh 
+  700  cd develop/
+  701  ls
+  702  cd awk/
+  703  ls
+  704  cat employees.txt 
+  705  awk '$3 > 4000 {print $0}' employees.txt 
+  706  awk '$2 ~ /Chang/ {print $0}' employees.txt 
+  707  awk '$2 !~ /Chang/ {print $0}' employees.txt 
+  708  awk '$2 == 5346 {print $0}' employees.txt 
+  709  awk '$3 == 5346 {print $0}' employees.txt 
+  710  awk '/Tom/, /Billy/' employees.txt 
+  711  awk '/Mary/, /Billy/' employees.txt 
+  712  ls
+  713  set -n '$=' employees.txt 
+  714  sed -n '$=' employees.txt 
+  715  cat employees.txt 
+  716  sed = employees.txt 
+  717  sed G employees.txt 
+  718  sed q employees.txt 
+  719  sed q3
+  720  sed q3 employees.txt 
+  721  sed q10 employees.txt 
+  722  sed 10q employees.txt 
+  723  sed 1q employees.txt 
+  724  sed 2q employees.txt 
+  725  sed 3q employees.txt 
+  726  sed 4q employees.txt 
+  727  history
+  728  history > sed.txt
+  729  ls
+  730  sed -h
+  731  sed --help
+  732  sed
+  733  dir
+  734  cd ..
+  735  ls
+  736  mkdir sed
+  737  ls
+  738  cd sed/
+  739  ls
+  740  vi test.txt
+  741  ls
+  742  ipconfig
+  743  ifconfig
+  744  ifconfig | grep "inet addr"
+  745  ifconfig eth0 | grep "inet addr"
+  746  ifconfig eth0 | grep "inet addr" | sed 's/^.*addr://g'
+  747  ifconfig eth0 | grep "inet addr" | sed 's/^.*addr://g' | sed 's/Bcast.*$//g'
+  748  sed -e '3,$d' -e 's/bash/bluebash/'
+  749  sed -e '3,$d' -e 's/bash/bluebash/' test.txt 
+  750  ls
+  751  cd develop/
+  752  ls
+  753  cd GoSee/
+  754  dir
+  755  node --debug app.js 
+  756  svn update
+  757  node --debug app.js 
+  758  svn update
+  759  node --debug app.js 
+  760  svn update
+  761  node --debug app.js 
+  762  svn update
+  763  node --debug app.js 
+  764  svn update
+  765  node --debug app.js 
+  766  svn update
+  767  node --debug app.js 
+  768  svn update
+  769  node --debug app.js 
+  770  svn update
+  771  node --debug app.js 
+  772  npm install forever -g
+  773  ps -ef | grep forever
+  774  ls
+  775  tail -fn ../log/app-2016-07-11.log 
+  776  tail -fn 200 ../log/app-2016-07-11.log 
+  777  ps -ef | grep forever
+  778  kill 3343
+  779  ps -ef | grep forever
+  780  ls
+  781  cd log
+  782  cd ../log/
+  783  ls
+  784  tail -fn errors.log 
+  785  cat errors.log 
+  786  ls
+  787  cat access-2016-07-11.log 
+  788  cat app-2016-07-11.log 
+  789  tail -fn 200 app-2016-07-11.log 
+  790  npm install forever -g
+  791  cd ../GoSee/
+  792  ls
+  793  history
+  794  forever start -l forever.log -o out.log -e err.log app.js
+  795  ls
+  796  tail -fn err.log 
+  797  cat err.log 
+  798  ps -ef | grep node
+  799  kill 3348
+  800  ps -ef | grep node
+  801  cat err.log 
+  802  ps -ef | grep node
+  803  kill 3400
+  804  ls
+  805  node --debug app.js 
+  806  ls
+  807  ls
+  808  cd develop/
+  809  ls
+  810  cd log/
+  811  ls
+  812  sed -n access-2016-07-11.log 
+  813  cat access-2016-07-11.log 
+  814  sed deviceToken.log 
+  815  sed -n deviceToken.log 
+  816  sed =  deviceToken.log 
+  817  sed =  deviceToken.log | sed 'N;s/\n/\t/'
+  818  sed -n '$=' deviceToken.log 
+  819  ls
+  820  cd ..
+  821  ls
+  822  cd sed/
+  823  ls
+  824  set = test.txt > test.txt 
+  825  cat test.txt 
+  826  vi test.txt 
+  827  cat test.txt 
+  828  sed = test.txt 
+  829  sed = test.txt > test.txt 
+  830  cat test.txt 
+  831  vi test.txt 
+  832  sed -e 4a\newLine test.txt 
+  833  cat test.txt 
+  834  nl test.txt 
+  835  cp test.txt source.txt
+  836  cat source.txt 
+  837  nl test.txt 
+  838  nl test.txt | sed '2,5d'
+  839  nl test.txt 
+  840  nl test.txt sed '2d'
+  841  nl test.txt | sed '2d'
+  842  nl test.txt | sed '3,$d'
+  843  nl test.txt | sed '2a Drink Tea'
+  844  nl test.txt | sed '2i Drink Tea'
+  845  nl test.txt | sed '2a Drink Water .....\'
+  846  nl test.txt | sed '2a Drink Water .....\
+  847  drink beer ? '
+  848  nl test.txt | sed '2,5c No 2-5 Number'
+  849  nl test.txt | sed -n '2,5p'
+  850  nl test.txt | sed '/dbus/p'
+  851  nl test.txt | sed '/test/p' 
+  852  nl test.txt | sed '/dbus/p'
+  853  nl test.txt | sed -n '/dbus/p'
+  854  nl test.txt | sed '/dbus/d'
+  855  nl test.txt 
+  856  nl test.txt | sed -n '/bin/{s/bash/buleshell/;p}'
+  857  nl test.txt | sed -n '/bin/{s/bash/buleshell/;q}'
+  858  nl test.txt | sed -n '/bin/{s/bash/buleshell/;p}'
+  859  mysql -u root -p
+  860  ls
+  861  cd develop/
+  862  ls
+  863  cd GoSee/
+  864  dir
+  865  node --debug app.js 
+  866  svn update
+  867  node --debug app.js 
+  868  svn update
+  869  node --debug app.js 
+  870  svn update
+  871  node --debug app.js 
+  872  svn update
+  873  ls
+  874  DEBUG_FD=3 node app.js 3> whatever.log
+  875  DEBUG_FD=3 node --debug app.js
+  876  $env:DEBUG = "*,-not_this"
+  877  env:DEBUG = "*,-not_this"
+  878  DEBUG = "*,-not_this"
+  879  node --debug app.js 
+  880  DEBUG=config, broadcast node app.js 
+  881  DEBUG=config,broadcast node app.js 
+  882  ls
+  883  vi config.js
+  884  ls
+  885  DEBUG=config,broadcast node app.js 
+  886  ll
+  887  find / -name gosee
+  888  cd /var/
+  889  ll
+  890  cd www
+  891  ll
+  892  cd ..
+  893  ll
+  894  cd lib/
+  895  ll
+  896  cd mysql
+  897  ll
+  898  cd gosee/
+  899  ll
+  900  cd ..
+  901  cd /home/
+  902  ll
+  903  cd lidw/
+  904  ll
+  905  cd ..
+  906  find / node
+  907  cd ~
+  908  ll
+  909  cd nodejs/
+  910  ll
+  911  cd GoSee
+  912  ll
+  913  cd public/
+  914  ll
+  915  cd ..
+  916  ll
+  917  vi /etc/my.cnf
+  918  service mysqld start
+  919  service mysqld restart
+  920  ping gosee.powerinfo.com.cn
+  921  ll
+  922  ls
+  923  cd redis-3.2.0
+  924  ls
+  925  sh startRedis.sh 
+  926  ls
+  927  dir
+  928  cd develop/
+  929  ls
+  930  cd GoSee/
+  931  dir
+  932  svn update
+  933  node --debug app.js 
+  934  svn update
+  935  node --debug app.js 
+  936  svn update
+  937  node --debug app.js 
+  938  ls
+  939  cd develop/
+  940  ls
+  941  cd log/
+  942  ls
+  943  rm -rf *.log
+  944  ls
+  945  rm -rf *.log.*
+  946  ls
+  947  tail -fn 2000 app.log 
+  948  ls
+  949  cd ..
+  950  ls
+  951  cd ..
+  952  ls
+  953  cd develop/
+  954  ls
+  955  cd GoSee/
+  956  dir
+  957  ls
+  958  vi config.js
+  959  ls
+  960  cat config.js
+  961  cd ../log/
+  962  ls
+  963  tail -fn socketio.log 
+  964  tail -fn 200 socketio.log 
+  965  ps -ef | grep node
+  966  ps -ef | grep supervisor
+  967  pwd
+  968  cd develop/
+  969  ls
+  970  cd GoSee/
+  971  ls
+  972  node --debug app.js 
+  973  cd /home/
+  974  ls
+  975  cd lidw/
+  976  ls
+  977  cd /root/
+  978  ls
+  979  ls -lt
+  980  cd cd develop/
+  981  ls
+  982  cd develop/
+  983  ls
+  984  ls -lt
+  985  mkdir shell
+  986  ssh-keygen -t rsa -C "872151094@qq.com"
+  987  ls
+  988  cat id_rsa.pub 
+  989  more id_rsa.pub 
+  990  ssh -T git@github.com
+  991  awk '{exit 1}' awk
+  992  awk '{exit 1}' txt
+  993  echo $?
+  994  awk '{exit 1}'
+  995  awk '{
+  996  if($1 ~ /Peter/) {next}
+  997  else {print}
+  998  }' id_rsa
+  999  cd /root/
+ 1000  ls
+ 1001  cd develop/
+ 1002  ls
+ 1003  cd shell/
+ 1004  ls
+ 1005  mkdir log
+ 1006  cd log/
+ 1007  awk '$1 ~ /user_follow/' mysql.log 
+ 1008  awk '/user_follow/' mysql.log 
+ 1009  awk '/user_follow/' mysql.log > follow.txt
+ 1010  ls
+ 1011  ls -lt
+ 1012  cd ..
+ 1013  ls
+ 1014  cd ..
+ 1015  ls
+ 1016  cd awk/
+ 1017  ls
+ 1018  cat sort.awk 
+ 1019  ls
+ 1020  cd ../shell/log/
+ 1021  ls
+ 1022  vi handle.txt
+ 1023  mv handle.txt handle.awk
+ 1024  ls
+ 1025  cat handle.awk 
+ 1026  chmod +x handle.awk 
+ 1027  ./handle.awk follow.txt 
+ 1028  ls
+ 1029  vi handle.awk 
+ 1030  ./handle.awk follow.txt 
+ 1031  vi handle.awk 
+ 1032  ls
+ 1033  wc follow.txt 
+ 1034  wc -l follow.txt 
+ 1035  cat follow.txt | grep 'INSERT'
+ 1036  cat follow.txt | grep 'UPDATE'
+ 1037  cat follow.txt | grep 'DELETE'
+ 1038  awk '/SET NumFollower/' mysql.log 
+ 1039  awk '/SET NumFollowee/' mysql.log 
+ 1040  awk "/`FolloweeID` = '5'/" mysql.log 
+ 1041  cat follow.txt | grep 'INSERT'
+ 1042  awk "/SET `FolloweeID` = '5'/" mysql.log 
+ 1043  awk "/`FolloweeID` = '5'/" mysql.log 
+ 1044  cls
+ 1045  clear
+ 1046  awk '/(INSERT|UPDATE|DELETE)/' follow.txt 
+ 1047  awk '/ERROR/' follow.txt 
+ 1048  awk '/ERROR/' mysql.log 
+ 1049  awk '/2016-07-22 07:32/' mysql.log 
+ 1050  clear
+ 1051  awk '/2016-07-22 07:32/' mysql.log 
+ 1052  awk '/(INSERT|UPDATE|DELETE)/' follow.txt 
+ 1053  awk '/2016-07-22 07:55/' mysql.log 
+ 1054  ls
+ 1055  vi getline.awk
+ 1056  chmod +x getline.awk 
+ 1057  ls
+ 1058  ./getline.awk mysql.log 
+ 1059  awk -f getline.awk mysql.log 
+ 1060  vi getline.awk 
+ 1061  vi getline2.awk
+ 1062  awk -f getline2.awk 
+ 1063  awk -f getline2.awk mysql.log 
+ 1064  cp getline2.awk getline3.awk
+ 1065  vi getline3.awk 
+ 1066  awk -f getline3.awk mysql.log 
+ 1067  ls
+ 1068  vi getline3.awk 
+ 1069* 
+ 1070  awk -F- getline3.awk mysql.log 
+ 1071  awk -F'-' getline3.awk mysql.log 
+ 1072  ls
+ 1073  cp getline3.awk getline4.awk
+ 1074  vi getline4.awk 
+ 1075  ls
+ 1076  cat getline4.awk 
+ 1077  awk -F'[-]' getline4.awk mysql.log 
+ 1078  ls
+ 1079  mv getline4.awk getline4
+ 1080  ls
+ 1081  awk -F'[-]' getline4 mysql.log 
+ 1082  awk -f'[-]' '{ print $1,$2 }' follow.txt 
+ 1083  awk -F'[-]' '{ print $1,$2 }' follow.txt 
+ 1084  awk -F'[-]' '{ print $4 }' follow.txt 
+ 1085  awk -F'[-]' '{ print $4 }' follow.txt  > hello.txt
+ 1086  more hello.txt 
+ 1087  awk -F'[-]' '{ print $4 }' follow.txt  > hello.txt
+ 1088  cat hello.txt 
+ 1089  ls
+ 1090  clear
+ 1091  ls
+ 1092  vi datafile.txt
+ 1093  cat datafile.txt 
+ 1094  awk 'NR==1{gsub(/north/, "south", $1); print }' datafile.txt 
+ 1095  awk 'NR==7{gsub(/north/, "south", $1); print }' datafile.txt 
+ 1096  awk 'NR==1{print substr($3, 1, 3)}' datafile.txt 
+ 1097  awk 'NR==1{print length($1)}'
+ 1098  awk 'NR==1{print length($1)}' datafile.txt 
+ 1099  awk 'NR==1{print length($2)}' datafile.txt 
+ 1100  awk 'NR==1{print index($1, 'west'}' datafile.txt 
+ 1101  awk 'NR==1{print index($1, "west"}' datafile.txt 
+ 1102  awk 'NR==1{print index($1, "west")}' datafile.txt 
+ 1103  awk 'NR==1{print index($1, "north")}' datafile.txt 
+ 1104  awk '{ if(match($1, /^no/)) {print substr($1,RSTART, RLENGTH)} }' datafile.txt 
+ 1105  awk '{ if(match($1, /^no/)) {print substr($1,RSTART, RLENGTH), RSTART} }' datafile.txt 
+ 1106  awk '{ if(match($1, /^no/)) {print substr($1,RSTART, RLENGTH), RSTART, RLENGTH} }' datafile.txt 
+ 1107  awk 'BEGIN {split("14/12/10", now, "/"); print now[1], now[2], now[3]}'
+ 1108  awk '{ line = sprintf("%10.2f%5s\n", $7, $2); print line}'
+ 1109  awk '{ line = sprintf("%10.2f%5s\n", $7, $2); print line}' datafile.txt 
+ 1110  awk 'BEGIN { print toupper("Linux"), tolower("BASH 2.0")}'
+ 1111  ls
+ 1112  history > string.txt
+ 1113  cat string.txt 
+ 1114  awk '{print systime()}'
+ 1115  awk 'BEGIN{now = systime(); print now}'
+ 1116  awk 'BEGIN{now = strftime(); print now}'
+ 1117  awk 'BEGIN{now = strftime("%D", systime()); print now}'
+ 1118  date
+ 1119  awk 'BEGIN {now=strftime("%T"); print now}'
+ 1120  awk 'BEGIN {now=strftime("%D%T"); print now}'
+ 1121  awk 'BEGIN {now=strftime("%D %T"); print now}'
+ 1122  awk 'BEGIN {now=strftime("%D %T %Z"); print now}'
+ 1123  awk 'BEGIN {now=strftime("%D %T %Z %Y"); print now}'
+ 1124  awk 'BEGIN {now=strftime("%D %T %Z %y"); print now}'
+ 1125  awk 'BEGIN {now=strftime("%m/%d%y"); print now}'
+ 1126  awk 'BEGIN {now=strftime("%m/%d %y"); print now}'
+ 1127  ls
+ 1128  vi argvs.awk
+ 1129  awk -f argvs.awk datafile.txt 
+ 1130  cat argvs.awk 
+ 1131  awk 'BEGIN{print ARGV}'
+ 1132  awk 'BEGIN{print ARGC}'
+ 1133  vi argvs.awk 
+ 1134  cat argvs.awk 
+ 1135  awk -f argvs.awk datafile.txt 
+ 1136  vi argvs.awk 
+ 1137* 
+ 1138  vi argvs.awk 
+ 1139  awk -f argvs.awk datafile.txt 
+ 1140  vi argvs.awk 
+ 1141  awk -f argvs.awk datafile.txt 
+ 1142  awk 'BEGIN{name=ARGV[1]};\'
+ 1143  awk 'BEGIN{name=ARGV[1]}; $0 ~ name {print $3, $4}' "Derek" datafile.txt 
+ 1144  awk 'BEGIN{name=ARGV[1]}; $0~name {print $3, $4}' "Derek" datafile.txt 
+ 1145  awk 'BEGIN{name=ARGV[1]}; $0~name {print $3, $4}' "north" datafile.txt 
+ 1146  awk 'BEGIN {"date" | getline d; print d}' datafile.txt 
+ 1147  awk 'BEGIN{"date" | getline d; split(d, mon); print mon}' datafile.txt 
+ 1148  awk 'BEGIN{"date" | getline d; split(d, mon); print mon[2]}' datafile.txt 
+ 1149  awk 'BEGIN {printf "who are you looking for ?"; getline name < "/dev/tty";}' datafile.txt 
+ 1150  cat datafile.txt 
+ 1151  awk 'BEGIN {printf "who are you looking for ?"; getline name < "/dev/tty";}' datafile.txt 
+ 1152  awk 'BEGIN {printf "who are you looking for ?"; getline name < "/dev/tty"; print name}' datafile.txt 
+ 1153  awk 'BEGIN{while(getline < "/etc/passwd" > 0) {lc++}; print lc}' 
+ 1154  cat /etc/passwd | wc -l
+ 1155  cat /etc/passwd
+ 1156  cat datafile.txt 
+ 1157  awk '{if ($5 > 4.5) next; print $1}' datafile.txt 
+ 1158  awk '{if ($2 ~ /S/) {print; exit 0}}' datafile.txt 
+ 1159  history 
+ 1160  history > fun.cmd
