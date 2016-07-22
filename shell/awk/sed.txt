@@ -1,0 +1,1000 @@
+   29  cat config.
+   30  more config.js 
+   31  ps -ef | grep redis
+   32  kill 9138
+   33  ls
+   34  ps -ef | grep redis
+   35  cd /root/redis-3.2.0
+   36  ls
+   37  sh startRedis.sh 
+   38  ps -ef | grep supervisor
+   39  ps -ef | grep redis
+   40  cd develop/
+   41  ls
+   42  cd GoSee/
+   43  dir
+   44  supervisor --debug app.js 
+   45  ls
+   46  cd socketio/
+   47  ls
+   48  svn update
+   49  cd ..
+   50  ls
+   51  supervisor --debug app.js 
+   52  supervisor --debug app.js  | grep 'SR'
+   53  supervisor --debug app.js 
+   54  ls
+   55  vi socketio/room.js
+   56  supervisor --debug app.js 
+   57  svn update
+   58  supervisor --debug app.js 
+   59  ls
+   60  svn update
+   61  ls
+   62  vi socketio/socketio.js 
+   63  vi socketio/room.js
+   64  ls
+   65  cd socketio/
+   66  ls
+   67  svn update
+   68  more room.js
+   69       svn update
+   70  cd ..
+   71  ls
+   72  supervisor --debug app.js 
+   73  svn update
+   74  supervisor --debug app.js 
+   75  svn update
+   76  supervisor --debug app.js 
+   77  svn update
+   78  supervisor --debug app.js 
+   79  svn update
+   80  ls
+   81  cd socketio/
+   82  ls
+   83  vi socketio.js 
+   84  ls
+   85  cd ..
+   86  ls
+   87  supervisor --debug app.js 
+   88  svn update
+   89  supervisor --debug app.js 
+   90  svn update
+   91  supervisor --debug app.js 
+   92  svn update
+   93  supervisor --debug app.js 
+   94  svn update
+   95  supervisor --debug app.js 
+   96  svn update
+   97  supervisor --debug app.js 
+   98  svn update
+   99  supervisor --debug app.js 
+  100  vi socketio/room.js
+  101  supervisor --debug app.js 
+  102  vi socketio/room.js
+  103  supervisor --debug app.js 
+  104  vi socketio/room.js
+  105  svn update
+  106  supervisor --debug app.js 
+  107  svn update
+  108  supervisor --debug app.js 
+  109  svn update
+  110  supervisor --debug app.js 
+  111  svn update
+  112  supervisor --debug app.js 
+  113  ls
+  114  cd socketio/
+  115  ls
+  116  vi socketio.js 
+  117  ls
+  118  vi room.js
+  119  cd ..
+  120  supervisor --debug app.js 
+  121  svn update
+  122  supervisor --debug app.js 
+  123  ls
+  124  vi socketio/socketio.js 
+  125  supervisor --debug app.js 
+  126  vi socketio/socketio.js 
+  127  supervisor --debug app.js 
+  128  svn update
+  129  supervisor --debug app.js 
+  130  ls
+  131  vi socketio/socketio.js 
+  132  supervisor --debug app.js 
+  133  svn update
+  134  ls
+  135  mv socketio/socketio.js socketio/socketio.js__bak
+  136  svn update
+  137  ls
+  138  cd socketio/
+  139  dir
+  140  mv room.js room.js_bak
+  141  ls
+  142  svn update
+  143  ls
+  144  vi room.js
+  145  cd ..
+  146  supervisor --debug app.js 
+  147  ls
+  148  vi socketio/room.js
+  149  ls
+  150  vi socketio/socketio.js
+  151  ls
+  152  supervisor --debug app.js 
+  153  ls
+  154  cd socketio/
+  155  ls
+  156  svn status
+  157  svn add room.js
+  158  svn commit
+  159  ls
+  160  vi socketio.js
+  161  cd ..
+  162  ls
+  163  supervisor --debug app.js 
+  164  svn update
+  165  supervisor --debug app.js 
+  166  ls
+  167  vi socketio/socketio.js
+  168  ls
+  169  supervisor --debug app.js 
+  170  ls
+  171  dir
+  172  vi socketio/room.js
+  173  supervisor --debug app.js 
+  174  vi socketio/room.js
+  175  supervisor --debug app.js 
+  176  svn update
+  177  supervisor --debug app.js 
+  178  ls
+  179  vi socketio/socketio.js
+  180  vi socketio/room.js
+  181  supervisor --debug app.js 
+  182  ls
+  183  vi socketio/room.js
+  184  supervisor --debug app.js 
+  185  vi socketio/room.js
+  186  vi socketio/socketio.js
+  187  supervisor --debug app.js 
+  188  svn update
+  189  supervisor --debug app.js 
+  190  supervisor --debug app.js &
+  191  ls
+  192  cd develop/
+  193  ls
+  194  cd GoSee/
+  195  dir
+  196  vi config.js 
+  197  service mysqld stop
+  198  service mysqld start
+  199  cd socketio/
+  200  ls
+  201  vi socketio.js
+  202  ls
+  203  cd develop/
+  204  ls
+  205  cd GoSee/
+  206  dir
+  207  ps -ef 
+  208   cls
+  209  cln
+  210  clear
+  211  ps -ef | grep supervisor 
+  212  kill 11882
+  213  ps -ef | grep supervisor 
+  214  supervisor --debug app.js 
+  215  ps -ef | grep super
+  216  cd develop/
+  217  ls
+  218  cd GoSee/
+  219  dir
+  220  supervisor --debug app.js 
+  221  ps -ef | grep supervisor 
+  222  kill 11934
+  223  ls
+  224  supervisor --debug app.js 
+  225  cd controllers/
+  226  ls
+  227  svn update
+  228  cd ..
+  229  cd models/
+  230  ls
+  231  svn update
+  232  ls
+  233  svn --help
+  234  svn diff
+  235  supervisor --debug app.js 
+  236  cd ..
+  237  supervisor --debug app.js 
+  238  cd develop/
+  239  cd GoSee/
+  240  svn update
+  241  cd /
+  242  ll
+  243  svn update
+  244  cd /root/develop/
+  245  cd GoSee/
+  246  svn update
+  247  service mysql restart
+  248  ps -ef | grep supervisor
+  249  cd develop/
+  250  dir
+  251  cd GoSee/
+  252  dir
+  253  node --debug app.js 
+  254  svn update
+  255  mv socketio/room.js socketio/room71.js
+  256  svn update
+  257  mv config.js config.js.bak
+  258  svn update
+  259  mv socketio/link.js socketio/link.js.bak
+  260  svn update
+  261  vm routes/api.js routes/api.js.bak
+  262  mv routes/api.js routes/api.js.bak
+  263  svn update
+  264  node --debug app.js 
+  265  npm install
+  266  node --debug app.js 
+  267  svn update
+  268  node --debug app.js 
+  269  svn update
+  270  node --debug app.js 
+  271  ls
+  272  vi config.js
+  273  node --debug app.js 
+  274  svn update
+  275  node --debug app.js 
+  276  mysql -uroot -pSjdd@123
+  277  ls
+  278  service mysqld restart
+  279  ..
+  280  cd develop/
+  281  ll
+  282  cd G
+  283  cd GoSee/
+  284  ll
+  285  supervisor app.js 
+  286  ps -ef | grep supervisor
+  287  ps -ef | grep node
+  288  cd develop/
+  289  ls
+  290  cd GoSee/
+  291  dir
+  292  node --debug app.js 
+  293  svn update
+  294  node --debug app.js 
+  295  svn update
+  296  node --debug app.js 
+  297  svn update
+  298  node --debug app.js 
+  299  svn update
+  300  node --debug app.js 
+  301  ls
+  302  mv socketio socketiobak
+  303  ls
+  304  svn update
+  305  cd socketiobak/
+  306  ls
+  307  cd ..
+  308  ls
+  309  dir
+  310  svn update
+  311  mkdir socketio
+  312  cd socketio
+  313  svn update
+  314  ls
+  315  dir
+  316  cd ..
+  317  ls
+  318  mv socketiobak/ /
+  319  ls
+  320  svn update
+  321  ls
+  322  node --debug app.js 
+  323  ls
+  324  dir
+  325  ls
+  326  dir
+  327  svn update
+  328  cd ..
+  329  svn update
+  330  dir
+  331  cd GoSee/
+  332  dir
+  333  svn update
+  334  dir
+  335  svn checkout http://192.168.11.9:8800/svn/gosee/trunk/GoSee/socketio
+  336  rm -rf socketio
+  337  svn checkout http://192.168.11.9:8800/svn/gosee/trunk/GoSee/socketio
+  338  ls
+  339  node --debug app.js 
+  340  svn checkout http://192.168.11.9:8800/svn/gosee/trunk/GoSee/socketio
+  341  node --debug app.js 
+  342  svn checkout http://192.168.11.9:8800/svn/gosee/trunk/GoSee/socketio
+  343  node --debug app.js 
+  344  svn checkout http://192.168.11.9:8800/svn/gosee/trunk/GoSee/socketio
+  345  node --debug app.js 
+  346  svn checkout http://192.168.11.9:8800/svn/gosee/trunk/GoSee/socketio
+  347  node --debug app.js 
+  348  ps -ef | grep node
+  349  supervisor --debug app.js 
+  350  ps -ef | grep node
+  351  kill 13630
+  352  ps -ef | grep node
+  353  kill 1366
+  354  ps -ef | grep 
+  355  ps -ef | grep node
+  356  kill 
+  357  kill -s 9 13630
+  358  ps -ef | grep node
+  359  kill -s 9 6771
+  360  ps -ef | grep node
+  361  node-inspector &
+  362  ls
+  363  cd develop/
+  364  ls
+  365  cd GoSee/
+  366  ls
+  367  cd libs/
+  368  ls
+  369  vi mysqlUtil.js 
+  370  ps -ef | grep 
+  371  ps -ef | grep node
+  372  cd ..
+  373  ls
+  374  cd log/
+  375  ls
+  376  tail -fn 200 app.log
+  377  ls
+  378  tail -fn 200 access.log 
+  379  ps -ef | grep node
+  380  cd ..
+  381  dir
+  382  cd GoSee/
+  383  ls
+  384  cd socketio/
+  385  ls
+  386  more link.js 
+  387  mysql -uroot -psjdd2012
+  388  mysql -uroot -pSjdd@123
+  389  ps -ef | grep node
+  390  ps -ef | grep super
+  391  cd develop/
+  392  ls
+  393  cd GoSee/
+  394  dir
+  395  node --debug app.js 
+  396  svn update
+  397  node --debug app.js 
+  398  svn update
+  399  node --debug app.js 
+  400  ls
+  401  cd develop/
+  402  ls
+  403  cd GoSee/
+  404  ls
+  405  cd ..
+  406  ls
+  407  cd log/
+  408  ls
+  409  tail -fn 2000 access.log 
+  410  tail -fn 2000 app.log 
+  411  cd ..
+  412  ls
+  413  cd GoSee/
+  414  dir
+  415  svn update
+  416  ls
+  417  svn update
+  418  ls
+  419  cd public/
+  420  ls
+  421  cd photos/
+  422  ls
+  423  netstat 
+  424  cd develop/
+  425  ls
+  426  cd GoSee/
+  427  dir
+  428  more  config.js
+  429    ls
+  430  ls
+  431  cd ..
+  432  ls
+  433  cd log/
+  434  ls
+  435  ls -lt
+  436  tail -fn 2000 app.log
+  437  ls
+  438  tail -fn 2000 access.log 
+  439  ls
+  440  tail -fn 2000 app.log
+  441  cd ..
+  442  dir
+  443  cd GoSee/
+  444  dir
+  445  svn update
+  446  ls
+  447  cd libs/
+  448  ls
+  449  mv mysqlUtil.js mysqlUtil.js.bak
+  450  cd ..
+  451  svn update
+  452  ls
+  453  svn update
+  454  ls
+  455  cd public/
+  456  ls
+  457  cd photos/
+  458  ls
+  459  cd ..
+  460  cd ..
+  461  ls
+  462  vi config.js
+  463  ps -ef | grep node
+  464  node-inspector &
+  465  chrome
+  466  google-chrome
+  467  yum install chrome
+  468  yum install google-chrome
+  469  yum install google-chrome-statble
+  470  ps -ef | grep node
+  471  cd develop/
+  472  ls
+  473  cd GoSee/
+  474  dir
+  475  node --debug app.js 
+  476  svn update
+  477  node --debug app.js 
+  478  svn update
+  479  node --debug app.js 
+  480  svn update
+  481  node --debug app.js 
+  482  svn update
+  483  node --debug app.js 
+  484  svn update
+  485  node --debug app.js 
+  486  svn update
+  487  node --debug app.js 
+  488  svn update
+  489  node --debug app.js 
+  490  node --debug=8888 app.js 
+  491  node --debug 192.168.11.57 app.js
+  492  node debug 192.168.11.57 app.js
+  493  node --debug app.js 
+  494  node --debug --web-host=192.168.11.240 app.js
+  495  node --debug app.js 
+  496  node-debug --web-host 192.168.11.240 app
+  497  node --debug app.js 
+  498  node --debug=5858 app.js 
+  499  svn update
+  500  node --debug app.js 
+  501  svn update
+  502  node --debug app.js 
+  503  svn update
+  504  node --debug app.js 
+  505  svn update
+  506  node --debug app.js 
+  507  cd develop/
+  508  ls
+  509  idr
+  510  dir
+  511  wget http://pkgs.repoforge.org/balance/balance-3.42-1.rf.src.rpm
+  512  dir
+  513  ls
+  514  rpm -i balance-3.42-1.rf.src.rpm 
+  515  ls
+  516  rpm -i balance-3.42-1.rf.src.rpm 
+  517  rpm --help
+  518  ls
+  519  rpm -ivh balance-3.42-1.rf.src.rpm 
+  520  ls
+  521  rpm -i balance
+  522  yum install balance
+  523  ls
+  524  cd /usr/src/
+  525  ls
+  526  cd debug/
+  527  ls
+  528  cd ..
+  529  ls
+  530  cd kernels/
+  531  ls
+  532  cd ..
+  533  ls
+  534  cd ..
+  535  ls
+  536  cd ..
+  537  ls
+  538  cd /root/
+  539  ls
+  540  cd develop/
+  541  ls
+  542  wget http://www.inlab.de/balance-3.57.tar.gz
+  543  ls
+  544  tar zxvf balance-3.
+  545  tar zxvf balance-3.57.tar.gz 
+  546  ls
+  547  rm -rf balance-3.42-1.rf.src.rpm 
+  548  ls
+  549  cd balance-3.57
+  550  ls
+  551  make 
+  552  make install
+  553  balance -df 8080 127.0.0.1:5858
+  554  balance -df 8585 127.0.0.1:5858
+  555  date
+  556  ls
+  557  ps -ef | grep node-inspector
+  558  kill node
+  559  ps -ef | grep node-inspector
+  560  kill 14204
+  561  ls
+  562  ps -ef | grep node-inspector
+  563  ps -ef | grep node
+  564  kill 15504
+  565  ps -ef | grep node
+  566  npm install -g node-inspector
+  567  node-inspector -web-port=8080
+  568  node-inspector
+  569  node-inspector 
+  570  node -v
+  571  node -V
+  572  node -v
+  573  mysql -uroot -pSjdd@123
+  574  date
+  575  time
+  576  date
+  577  cd develop/
+  578  ls
+  579  cd GoSee/
+  580  dir
+  581  cd ..
+  582  ls
+  583  cd log/
+  584  ls
+  585  more mysql.log 
+  586  tail -fn 2000 mysql.log 
+  587  ls
+  588  tail -fn 200 errors.log 
+  589  ls
+  590  tail -fn 2000 errors.log 
+  591  cd ..
+  592  ls
+  593  cd GoSee/
+  594  ls
+  595  svn update
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd log/
+  600  ls
+  601  tail -fn 200 errors.log 
+  602  date
+  603  cd ..
+  604  ls
+  605  cd lo
+  606  ls
+  607   cd -
+  608  ls
+  609  cd log/
+  610  ls
+  611  tail -fn 200 mysql.log 
+  612  ls
+  613  cat deviceToken.log 
+  614  ls
+  615  cat mysql.log | grep dev_osversion
+  616  cd ..
+  617  ls
+  618  cd GoSee/
+  619  ls
+  620  svn update
+  621  cd lo
+  622  ls
+  623  cd ..
+  624  ls
+  625  cd log/
+  626  ls
+  627  cat mysql.log | grep dev_osversion
+  628  date
+  629  cd develop/
+  630  ls
+  631  cd GoSee/
+  632  ls
+  633  node --debug app.js 
+  634  ls
+  635  svn update
+  636  node --debug app.js 
+  637  svn update
+  638  node --debug app.js 
+  639  svn update
+  640  node --debug app.js 
+  641  svn update
+  642  node --debug app.js 
+  643  svn update
+  644  node --debug app.js 
+  645  svn update
+  646  node --debug app.js 
+  647  svn update
+  648  node --debug app.js 
+  649  svn update
+  650  node --debug app.js 
+  651  svn update
+  652  node --debug app.js 
+  653  svn update
+  654  mv config.js config.js.bak.76
+  655  svn update
+  656  node --debug app.js 
+  657  svn update
+  658  node --debug app.js 
+  659  svn update
+  660  node --debug app.js 
+  661  svn update
+  662  ls
+  663  cd controllers/user/
+  664  ls
+  665  rm -rf sign.js 
+  666  cd ..
+  667  ls
+  668  svn update
+  669  node --debug app.js 
+  670  svn update
+  671  node --debug app.js 
+  672  svn update
+  673  node --debug app.js 
+  674  date
+  675  ls
+  676  cd develop/
+  677  ls
+  678  cd GoSee/
+  679  ls
+  680  svn update
+  681  ls
+  682  cd socketio/
+  683  ls
+  684  vi link.js 
+  685  date
+  686  cd
+  687  ll
+  688  cd develop/
+  689  cd GoSee/
+  690  svn update
+  691  ps -ef | grep node
+  692  ps -ef | grep super
+  693  cd develop/
+  694  ls
+  695  cd GoSee/
+  696  ls
+  697  node --debug app.js 
+  698  ls
+  699  svn update
+  700  cd ..
+  701  ls
+  702  cd GoSee/
+  703  ls
+  704  ls -lt
+  705  svn update
+  706  cd ..
+  707  svn update
+  708  svn co http://192.168.11.9:8800/svn/gosee/trunk/GoSee/cert.pem
+  709  ls
+  710  cd GoSee/
+  711  ls
+  712  svn co http://192.168.11.9:8800/svn/gosee/trunk/GoSee/cert.pem
+  713  node --debug app.js 
+  714  svn update
+  715  node --debug app.js 
+  716  svn update
+  717  node --debug app.js 
+  718  svn update
+  719  node --debug app.js 
+  720  g++ --version
+  721  node --debug app.js 
+  722  svn update
+  723  node --debug app.js 
+  724  svn update
+  725  node --debug app.js 
+  726  svn update
+  727  node --debug app.js 
+  728  svn update
+  729  node --debug app.js 
+  730  svn update
+  731  node --debug app.js 
+  732  svn update
+  733  node --debug app.js 
+  734  cd develop/
+  735  l;s
+  736  ls
+  737  cd GoSee/
+  738  ls
+  739  svn update
+  740  ls
+  741  [2016-07-07 01:55:02.445] [ERROR] console - Missing error handler on `socket`.
+  742  [2016-07-07 01:55:02.446] [ERROR] console - TypeError: Cannot read property 'roomName' of undefined
+  743      at Socket.<anonymous> (/root/develop/GoSee/socketio/link.js:351:31)
+  744      at emitNone (events.js:67:13)
+  745      at Socket.emit (events.js:166:7)
+  746      at Socket.onevent (/root/develop/GoSee/node_modules/socket.io/lib/socket.js:335:8)
+  747      at Socket.onpacket (/root/develop/GoSee/node_modules/socket.io/lib/socket.js:295:12)
+  748      at Client.ondecoded (/root/develop/GoSee/node_modules/socket.io/lib/client.js:193:14)
+  749      at Decoder.Emitter.emit (/root/develop/GoSee/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+  750      at Decoder.add (/root/develop/GoSee/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+  751      at Client.ondata (/root/develop/GoSee/node_modules/socket.io/lib/client.js:175:18)
+  752      at emitOne (events.js:77:13)
+  753      at Socket.emit (events.js:169:7)
+  754      at Socket.onPacket (/root/develop/GoSee/node_modules/socket.io/node_modules/engine.io/lib/socket.js:101:14)
+  755      at emitOne (events.js:77:13)
+  756      at WebSocket.emit (events.js:169:7)
+  757      at WebSocket.Transport.onPacket (/root/develop/GoSee/node_modules/socket.io/node_modules/engine.io/lib/transport.js:104:8)
+  758      at WebSocket.Transport.onData (/root/develop/GoSee/node_modules/socket.io/node_modules/engine.io/lib/transport.js:115:8)
+  759  clear
+  760  netstat –apn
+  761  netstat apn
+  762  netstat -apn
+  763  netstat -apn | grep 80
+  764  ps -ef | grep 18093
+  765  netstat -apn | grep :80
+  766  svn update
+  767  tail ../log/mysql.log -fn 2000
+  768  ls
+  769  cd ..
+  770  ls
+  771  cd log/
+  772  ls
+  773  ls -lt
+  774  rm -rf mysql.log 
+  775  rm -rf *
+  776  ls
+  777  ls -lt
+  778  ls
+  779  ps -ef | grep node
+  780  kill 18421
+  781  ps -ef | grep node
+  782  ls
+  783  mysqld -uroot -pSjdd@123
+  784  mysql -uroot -p
+  785  cd /e
+  786  cd develop/
+  787  ll
+  788  cd GoSee/
+  789  ll
+  790  svn update
+  791  cd /var/test/
+  792  ll
+  793  cd GoSee/
+  794  ll
+  795  cd public/
+  796  ll
+  797  cd buttons/
+  798  ll
+  799  rm -fr angular-datatables.buttons.*
+  800  ll
+  801  cd datatables-buttons/
+  802  ll
+  803  rm -fr css/
+  804  ll
+  805  rm -fr bower.json 
+  806  rm -fr License.txt 
+  807  cd js/
+  808  ll
+  809  rm -fr buttons.*
+  810  ll
+  811  rm dataTables.buttons.js 
+  812  ll
+  813  rm -fr dataTables.buttons.js 
+  814  ll
+  815  cd ..
+  816  cd /var/test/
+  817  ll
+  818  chmod 777 -R GoSee/
+  819  tar -zcvf gosee-1.0.0-20160708.tar.gz GoSee/
+  820  cd develop/
+  821  ls
+  822  cd log/
+  823  ls
+  824  more mysql.log 
+  825  awk '{print $1, $4}' mysql.log 
+  826  awk '{print $1, $6}' mysql.log 
+  827  ls
+  828  rm -rf *.log
+  829  ls
+  830  awk '{print $1, $0}' mysql.log 
+  831  awk '{print  $0}' mysql.log 
+  832  awk '{print  $0}' errors.log 
+  833  ls
+  834  awk '{print  $0}' deviceToken.log 
+  835  awk '{print  $7}' deviceToken.log 
+  836  cd ..
+  837  ls
+  838  mkdir awk
+  839  cd awk/
+  840  ls
+  841  vi sort.awk
+  842  ls
+  843  chmod + x sort.awk 
+  844  chmod +x sort.awk 
+  845  ls
+  846  ./sort.awk ../log/deviceToken.log 
+  847  vi sort.awk 
+  848  ./sort.awk ../log/deviceToken.log 
+  849  ls
+  850  vi employees.txt
+  851  awk '/Tom/' employees.txt 
+  852  awk '{print $0}' employees.txt 
+  853  awk '{print $1}' employees.txt 
+  854  awk '{print $1, $2}' employees.txt 
+  855  cat employees.txt | awk '/Sally/{print $1}'
+  856  cat employees.txt | awk '/Tom/{print $1}'
+  857  cat employees.txt | awk '/Tom/ {print $1}'
+  858  cat employees.txt | awk '/Tom/{print $1}'
+  859  cat employees.txt | awk '/Sally/{print $1}'
+  860  ps -ef | awk '/node/'
+  861  date
+  862  date | awk {print "Month"}
+  863  date | awk '{print "Month"}'
+  864  date | awk '{print "Month"} $2'
+  865  date | awk '{print "Month" $2}'
+  866  date | awk '{print "Month: " $2}'
+  867  date | awk '{print "Month: " $2 "\nYear: " $6 }'
+  868  awk '/sally/{print "\t\t Have a nice day," $1 $2 "\!"}'
+  869  awk '/sally/{print "\t\t Have a nice day," $1 $2 "!"}'
+  870  awk '/Sally/ {print "\t\t Have a nice day," $1 $2 "!"}'
+  871  awk '/Sally/' '{print "\t\t Have a nice day," $1 $2 "!"}'
+  872  awk '/Sally/{print "\t\t Have a nice day," $1 $2 "!"}' employees.txt 
+  873  history 
+  874  history > cmd.txt
+  875  cat cmd.txt 
+  876  cat employees.txt 
+  877  cat employees.txt | awk '/Sally/{print $1}'
+  878  cat employees.txt | awk '/Sally/{print $1 $2}'
+  879  cat employees.txt | awk '/Sally/ {print $1 $2}'
+  880  cat employees.txt | awk '/Sally/{print $1 $2}'
+  881  cat employees.txt | awk '/Sally/{print $1,$2}'
+  882  cat employees.txt | awk '/Sally/{print $1}'
+  883  awk 'BEGIN{OFMT="%.2f"; print 1.2.567, 12E-2 }'
+  884  awk 'BEGIN{OFMT="%.2f"; print 1.2.567, 12E-2 }' >> cmd.txt 
+  885  cat cmd.txt 
+  886  history > cmd.txt
+  887  cat cmd.txt 
+  888  ls
+  889  cat employees.txt 
+  890  awk '{printf "The name is %-15s  ID is %s\n", $1,$3 }'
+  891  awk '{printf "The name is %-15s  ID is %s\n", $1,$3}' employees.txt 
+  892  cat employees.txt | awk '{printf "The name is %-15s  ID is %s\n", $1,$3}' 
+  893  cat sort.awk 
+  894  vi print.awk
+  895  awk -f print.awk employees.txt 
+  896  cat print.awk 
+  897  cat employees.txt 
+  898  awk '{print $0}'
+  899  awk '{print $0}' employees.txt 
+  900  awk '{print}' employees.txt 
+  901  awk '{print NR, $1, $2, $5}' employees.txt 
+  902  awk '{print NR, $1, $2, $5, NF}' employees.txt 
+  903  vi family.txt
+  904  ls
+  905  cat family.txt 
+  906  awk -F: '/Mary Adams/{print $1, $2}' family.txt 
+  907  awk -F'[ :\t]' '{print $1, $2, $5}' family.txt 
+  908  history
+  909  history >> README.md
+  910  awk '{print OFS}'
+  911  awk -F: '/Tom/{print $1,$2,$3,$4}' family.txt 
+  912  awk -F: '/Tom/{print $0}' family.txt 
+  913  awk -F: '/Tom/{OFS="|"; print $1,$2,$3,$4}'
+  914  awk -F: '/Tom/{OFS="|"; print $1,$2,$3,$4}' family.txt 
+  915  ls
+  916  cd dev
+  917  cd develop/
+  918  ls
+  919  cd GoSee/
+  920  ls
+  921  node --debug app.js 
+  922  svn update
+  923  node --debug app.js 
+  924  svn update
+  925  node --debug app.js 
+  926  svn update
+  927  node --debug app.js 
+  928  cd develop/
+  929  ls
+  930  cd log/
+  931  ls
+  932  tail -fn 200 socketio.log 
+  933  ls
+  934  ls -lt
+  935  echo "Linux" | awk '{printf "|-15s|\n", $1}'
+  936  echo "Linux" | awk '{printf "|-15s|\n" $1}'
+  937  echo "Linux" | awk '{printf "|%-15s|\n" $1}'
+  938  echo "Linux" | awk '{printf "|%-15s|\n", $1}'
+  939  echo 23 | awk '{printf "%#o\n", $1}'
+  940  echo 23 | awk '{printf "%#x\n", $1}'
+  941  echo "Linux" | awk '{printf "|%15s\n", $1 }'
+  942  echo "Linux" | awk '{printf "|%15s\n|", $1 }'
+  943  echo "Linux" | awk '{printf "|%15s|\n", $1 }'
+  944  cat errors.log 
+  945  ls
+  946  history
+  947  history > cmd.txt
+  948  poweroff
+  949  mysql -uroot -pSjdd@123
+  950  node -v
+  951  pwd
+  952  ll
+  953  cd set |more
+  954  set |more
+  955  redis-cli
+  956  redis-server
+  957  redis-server --version
+  958  cd /
+  959  find . -name redis*
+  960  /root/redis-3.2.0/src/redis-server
+  961  ps -ef|grep redis-server
+  962  pwd
+  963  ll
+  964  cd
+  965  ll
+  966  cd /
+  967  find . -name gosee
+  968  find . -name *.js
+  969  pwd
+  970  cd 
+  971  ll
+  972  cd deve*
+  973  ll
+  974  cd GoSee
+  975  l
+  976  ll
+  977  pwd
+  978  ll
+  979  vi config.js
+  980  pwd
+  981  ll
+  982  cd node*
+  983  ll
+  984  pwd
+  985  cd cookie
+  986  ll
+  987  pwd
+  988  cd ..
+  989  npm install cookie --save-dev
+  990  node app
+  991  cd 
+  992  ll
+  993  ll *.pem
+  994  chmod 400 lidw.pem
+  995  ssh-keygen -p -f lidw.pem
+  996  ll
+  997  ssh-keygen -e -f lidw.pem >> lidw.pem.pub
+  998  ll
+  999  ping gosee.sjdd.com.cn
+ 1000  cd develop/
+ 1001  ls
+ 1002  cd awk/
+ 1003  ls
+ 1004  cat employees.txt 
+ 1005  awk '$3 > 4000 {print $0}' employees.txt 
+ 1006  awk '$2 ~ /Chang/ {print $0}' employees.txt 
+ 1007  awk '$2 !~ /Chang/ {print $0}' employees.txt 
+ 1008  awk '$2 == 5346 {print $0}' employees.txt 
+ 1009  awk '$3 == 5346 {print $0}' employees.txt 
+ 1010  awk '/Tom/, /Billy/' employees.txt 
+ 1011  awk '/Mary/, /Billy/' employees.txt 
+ 1012  ls
+ 1013  set -n '$=' employees.txt 
+ 1014  sed -n '$=' employees.txt 
+ 1015  cat employees.txt 
+ 1016  sed = employees.txt 
+ 1017  sed G employees.txt 
+ 1018  sed q employees.txt 
+ 1019  sed q3
+ 1020  sed q3 employees.txt 
+ 1021  sed q10 employees.txt 
+ 1022  sed 10q employees.txt 
+ 1023  sed 1q employees.txt 
+ 1024  sed 2q employees.txt 
+ 1025  sed 3q employees.txt 
+ 1026  sed 4q employees.txt 
+ 1027  history
+ 1028  history > sed.txt
