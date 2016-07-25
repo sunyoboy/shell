@@ -1,0 +1,4 @@
+{
+  if($1 ~ /Peter/) {next}
+  else {print}
+}
