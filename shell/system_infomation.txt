@@ -1,0 +1,30 @@
+[public_info]
+sys_time=2016-08-09 19:41:00	#系统时间
+os_version=	#操作系统版本
+kernel-release=2.6.32-573.el6.x86_64	#内核版本
+
+[netcard_info]
+netcard_num=1
+#网卡名字|IP|MAC|网卡驱动|网卡速率|网卡发送流量(bytes)|网卡接收流量(bytes)|网卡总流量(bytes)
+netcard_1=eth0|192.168.11.57|00:50:56:26:F9:D9|1000Mb/s|1426533303||1648936205
+
+[cpu_info]
+cpu_model= Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz	#cpu型号
+cpu_core_num=2	#cpu核数
+cpu_phical_count=1	#cpu个数
+cpu_frequendy=3292.569	#主频/单个
+cache_size= 8192 KB*2	#缓存
+cpu_idle=%	#空闲率
+cpu_used=%	#使用率
+
+[mem_info]
+mem_total=1821	#总内存
+mem_used=930	#已使用
+mem_free=890	#可使用
+
+[hard_info]
+file_system_num=3
+#磁盘总容量(单位M)|已用容量(单位M)|可用流量(单位M)|已用百分比（%）|挂载目录
+35956|5543|28581|17%|/
+911|0|911|0%|/dev/shm
+283|41|228|16%|/boot
