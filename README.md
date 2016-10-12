@@ -41,6 +41,9 @@ EOF: 在Linux命令和脚本中表示用户自定义终止符
     find / -name testing &> list
 ### 用 stdin 取代键盘的输入以创建新文件的简单流程
     cat > file.txt < stdout
-
+### 应用日志分析代码(日志分析，系统监控)
+    https://github.com/changyubiao/shellpractice
 Reference
     http://cn.linux.vbird.org/linux_basic/0320bash_5.php
+    
+ 
