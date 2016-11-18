@@ -12,3 +12,9 @@ Spring JdbcTemplate:
 实践：1、使用自动化工具帮助生成映射关系。
 
 ## Annotation 与配置文件
+
+监控系统的运行队列：
+typeperf -si 5 "\System\Processor Queue Length"
+
+监控内存命令：
+typeperf -si 5 "\Memory\Available Mbytes" "\Memory\Pages/sec"
