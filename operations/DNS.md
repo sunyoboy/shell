@@ -86,7 +86,7 @@ TTL(Time to live)
     TXT记录
 ## Command
 ipconfig
-tracert
+tracert(window)/traceroute(linux)
 nslookup
 dig
 # Reference List
