@@ -18,3 +18,5 @@ typeperf -si 5 "\System\Processor Queue Length"
 
 监控内存命令：
 typeperf -si 5 "\Memory\Available Mbytes" "\Memory\Pages/sec"
+
+#统一RPC框架序列化、反序列化、网络框架、连接池、收发线程、超时处理、状态机等“业务之外”的技术劳动统一处理，是服务化首要解决的问题
