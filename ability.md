@@ -22,4 +22,17 @@
 -有良好的时间和流程意识 
 -有较好的沟通交流能力，能够迅速融入团队
 
+SOAP(SOAP：Simple Object Access Protocol)
+ SOAP 是一种简单的基于 XML 的协议，它使应用程序通过 HTTP 来交换信息。
+ .SOAP 指简易对象访问协议
+ .SOAP 是一种通信协议
+ .SOAP 用于应用程序之间的通信
+ .SOAP 是一种用于发送消息的格式
+ .SOAP 被设计用来通过因特网进行通信
+ .SOAP 独立于平台
+ .SOAP 独立于语言
+ .SOAP 基于 XML
+ .SOAP 很简单并可扩展
+ .SOAP 允许您绕过防火墙
+ .SOAP 将被作为 W3C 标准来发展
 
