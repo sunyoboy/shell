@@ -74,4 +74,10 @@ $ nmap -sP 192.168.1.1-255
 五款好玩又好用的Linux网络测试和监控工具 http://os.51cto.com/art/201403/431950.htm
 七大实用命令行工具 http://os.51cto.com/art/201004/196757_1.htm
 
+压力测试
+http://cpper.info/2016/08/11/Apache-Bench-Usage.html
+http://blog.csdn.net/officercat/article/details/49891809
+https://cnodejs.org/topic/5709e30112def0933c43ab91 gnuplot
+
 linux监控工具 http://os.51cto.com/art/201005/200741.htm    
+
