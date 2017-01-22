@@ -11,3 +11,4 @@
   http://xiaorui.cc/category/ansible/
   http://lxneng.iteye.com/blog/492063
   http://ansible-tran.readthedocs.io/en/latest/docs/intro_installation.html
+	https://pythonguidecn.readthedocs.io/zh/latest/
